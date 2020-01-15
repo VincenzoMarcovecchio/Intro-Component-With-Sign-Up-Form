@@ -66,3 +66,7 @@ function changeEmail() {
   placeholder.placeholder = "email@example.com";
   placeholder.className = "form-control email error";
 }
+/*$("input").focus(function(){
+    $(this).css("border", "");
+    $(this).removeClass("icon-err");
+  });*/
