@@ -79,6 +79,7 @@ input {
 
 input:focus {
   border: 1px solid hsl(249, 10%, 26%) !important ;
+  z-index:3;
 }
 
 input::placeholder {
