@@ -53,7 +53,7 @@
             name="username"
             id="username"
             name="username"
-              
+              onchange="checkInputs()"
               type="text"
               aria-label="First-Name"
               placeholder="First Name"
@@ -72,7 +72,7 @@
               type="text"
               aria-label="Last-Name"
               placeholder="Last Name"
-              required
+              required onchange="checkInputs()"
             />
             <p class="errormsg invalid-feedback">
               <em> Last Name cannot be empty</em>
@@ -87,7 +87,7 @@
               placeholder="Email Address"
               name ="email"
                class="form-control email"
-              required
+              required onchange="checkInputs()"
             />
             <p class="errormsg">
               <em> Looks like this is not an email</em>
@@ -102,7 +102,7 @@
               placeholder="Password"
                    aria-label="password"
              
-              required
+              required onchange="checkInputs()"
             />
            
             <p class="errormsg">
